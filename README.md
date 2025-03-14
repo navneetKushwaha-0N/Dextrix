@@ -1,2 +1,2 @@
-# Dextrixx
+# Dextrix
 Hackathon project
