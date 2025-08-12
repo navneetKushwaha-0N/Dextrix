@@ -6,7 +6,7 @@ const body = document.querySelector("body"),
 let getMode = localStorage.getItem("mode");
 if(getMode && getMode ==="dark"){
     body.classList.toggle("dark");
-}
+}  
    
 let getStatus = localStorage.getItem("status");
 if(getStatus && getStatus ==="close"){
@@ -31,5 +31,6 @@ sidebarToggle.addEventListener("click", () => {
     }
 
 })
+
 
 
