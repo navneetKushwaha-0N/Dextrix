@@ -20,7 +20,7 @@ pwShowHide.forEach((icon) => {
       icon.classList.replace("uil-eye", "uil-eye-slash");
     }
   });
-});
+});   
 
 signupBtn.addEventListener("click", (e) => {
   e.preventDefault();
@@ -42,3 +42,4 @@ else{
   alert("Login failed");
 }
 }
+
